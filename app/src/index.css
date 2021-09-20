@@ -5,9 +5,64 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  width: 100%;
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
+}
+
+.CampaignHeader {
+  display: flex;
+  flex-direction: row;
+  width: 70%;
+  height: auto;
+  margin: 5%;
+}
+
+.CampaignIcon {
+  display: flex;
+  width: 40%;
+  height: auto;
+  align-content: center;
+}
+
+.CampaignInfo {
+  width: 50%;
+  display: row;
+  margin: 5%;
+}
+
+.CampaignName {
+  text-align: left;
+}
+.PayPerInstall {
+  text-align: left;
+  color: green;
+}
+.MediaContainer {
+  display: flex;
+  overflow-x: auto;
+  height: 400px;
+  background: #f8f8ff;
+}
+.MediaIndividual {
+  flex-direction: row;
+  width: 200px;
+  height: 300px;
+  padding: 3%;
+}
+.MediaImg {
+  display: row;
+}
+.DownloadIcon {
+  display: column;
+  width: 100px;
+  height: auto;
+}
+.LinkIcon {
+  display: column;
+  width: 100px;
+  height: auto;
 }
